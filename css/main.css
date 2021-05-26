@@ -451,7 +451,7 @@ nav.menu-show {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  padding: 20px 20px 100px;
+  padding: 20px 20px 140px;
   overflow-x: auto;
 }
 
@@ -463,7 +463,7 @@ nav.menu-show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #4441d6;
+  background-color: #2b28c5;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
