@@ -8,7 +8,7 @@
 }
 
 // COLORS
-$primary: #1A4894;
+$primary: #1815db;
 $dark: #000000;
 $light: #ffffff;
 $grey: #C4C4C4;
@@ -28,11 +28,6 @@ body {
   background-position-x: right;
   background-position-y: -20px;
   background-size: 800px;
-
-  // &::after {
-  //   content: url(/img/blurred-bg.svg);
-  // }
-
   header, section, footer {
     padding: 0 20px;
 
@@ -381,12 +376,9 @@ nav.menu-show {
 
     .cards-container {
       order: 2;
-      // display: grid;
-      // grid-template-columns: 1fr 1fr;
       display: flex;
       gap: 10px;
       padding: 20px 20px 100px;
-      // margin-bottom: 80px;
       overflow-x: auto;
 
       &::-webkit-scrollbar {
@@ -399,8 +391,8 @@ nav.menu-show {
         justify-content: flex-end;
         align-items: flex-end;
         position: relative;
-        min-width: 160px;
-        height: 200px;
+        min-width: 250px;
+        height: 400px;
         padding: 15px;
         box-sizing: border-box;
         color: $light;

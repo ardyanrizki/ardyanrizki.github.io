@@ -463,7 +463,7 @@ nav.menu-show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #1A4894;
+  background-color: #1815db;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -471,8 +471,8 @@ nav.menu-show {
       -ms-flex-align: end;
           align-items: flex-end;
   position: relative;
-  min-width: 160px;
-  height: 200px;
+  min-width: 250px;
+  height: 400px;
   padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
