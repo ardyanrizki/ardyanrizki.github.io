@@ -392,8 +392,8 @@ nav.menu-show {
         align-items: flex-end;
         position: relative;
         min-width: 250px;
-        height: 400px;
-        padding: 15px;
+        height: 380px;
+        padding: 20px 40px;
         box-sizing: border-box;
         color: $light;
         filter: drop-shadow(0px 30px 30px rgba(26, 72, 148, 0.15));
@@ -414,13 +414,13 @@ nav.menu-show {
           text-align: right;
 
           img {
-            width: 60px;
+            width: 120px;
             margin-bottom: 15px;
+            margin-right: -10px;
           }
 
           h3 {
-            font-size: 18px;
-            font-weight: 400;
+            font-weight: 500;
           }
         }
       }
@@ -556,9 +556,14 @@ nav.menu-show {
           padding: 50px 20px 20px;
 
           .skill {
+            img {
+              width: 60px;
+              margin-bottom: 15px;
+              margin-right: unset;
+            }
+
             h3 {
               font-size: 14px;
-              font-weight: 500;
             }
           }
 

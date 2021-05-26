@@ -472,8 +472,8 @@ nav.menu-show {
           align-items: flex-end;
   position: relative;
   min-width: 250px;
-  height: 400px;
-  padding: 15px;
+  height: 380px;
+  padding: 20px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #ffffff;
@@ -495,13 +495,13 @@ nav.menu-show {
 }
 
 #services-section .container .cards-container .card .skill img {
-  width: 60px;
+  width: 120px;
   margin-bottom: 15px;
+  margin-right: -10px;
 }
 
 #services-section .container .cards-container .card .skill h3 {
-  font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #services-section .container .email-cta {
@@ -626,9 +626,13 @@ nav.menu-show {
             align-items: center;
     padding: 50px 20px 20px;
   }
+  #services-section .container .cards-container .card .skill img {
+    width: 60px;
+    margin-bottom: 15px;
+    margin-right: unset;
+  }
   #services-section .container .cards-container .card .skill h3 {
     font-size: 14px;
-    font-weight: 500;
   }
   #services-section .container .emphasis-text {
     width: 60%;
