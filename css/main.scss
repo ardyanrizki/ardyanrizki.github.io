@@ -378,8 +378,10 @@ nav.menu-show {
       order: 2;
       display: flex;
       gap: 10px;
-      padding: 20px 20px 140px;
+      padding: 20px 20px 200px;
       overflow-x: auto;
+      margin-bottom: -120px;
+      z-index: 0;
 
       &::-webkit-scrollbar {
         display: none;
@@ -392,8 +394,8 @@ nav.menu-show {
         align-items: flex-end;
         position: relative;
         min-width: 250px;
-        height: 380px;
-        padding: 20px 15%;
+        height: 360px;
+        padding: 10px 15%;
         box-sizing: border-box;
         color: $light;
         filter: drop-shadow(0px 30px 30px rgba(26, 72, 148, 0.15));

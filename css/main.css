@@ -451,8 +451,10 @@ nav.menu-show {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  padding: 20px 20px 140px;
+  padding: 20px 20px 200px;
   overflow-x: auto;
+  margin-bottom: -120px;
+  z-index: 0;
 }
 
 #services-section .container .cards-container::-webkit-scrollbar {
@@ -472,8 +474,8 @@ nav.menu-show {
           align-items: flex-end;
   position: relative;
   min-width: 250px;
-  height: 380px;
-  padding: 20px 15%;
+  height: 360px;
+  padding: 10px 15%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #ffffff;
