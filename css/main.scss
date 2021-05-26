@@ -8,7 +8,7 @@
 }
 
 // COLORS
-$primary: #1815db;
+$primary: #4441d6;
 $dark: #000000;
 $light: #ffffff;
 $grey: #C4C4C4;
@@ -393,7 +393,7 @@ nav.menu-show {
         position: relative;
         min-width: 250px;
         height: 380px;
-        padding: 20px 40px;
+        padding: 20px 15%;
         box-sizing: border-box;
         color: $light;
         filter: drop-shadow(0px 30px 30px rgba(26, 72, 148, 0.15));
@@ -414,7 +414,7 @@ nav.menu-show {
           text-align: right;
 
           img {
-            width: 120px;
+            width: 40%;
             margin-bottom: 15px;
             margin-right: -10px;
           }

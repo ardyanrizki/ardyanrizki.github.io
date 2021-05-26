@@ -463,7 +463,7 @@ nav.menu-show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #1815db;
+  background-color: #4441d6;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -473,7 +473,7 @@ nav.menu-show {
   position: relative;
   min-width: 250px;
   height: 380px;
-  padding: 20px 40px;
+  padding: 20px 15%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #ffffff;
@@ -495,7 +495,7 @@ nav.menu-show {
 }
 
 #services-section .container .cards-container .card .skill img {
-  width: 120px;
+  width: 40%;
   margin-bottom: 15px;
   margin-right: -10px;
 }
