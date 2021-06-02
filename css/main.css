@@ -15,7 +15,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   background-color: #ffffff;
-  background-image: url(/img/blurred-bg.svg);
+  background-image: url(https://ardyan.design/img/blurred-bg.svg);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: -20px;
@@ -140,7 +140,7 @@ img {
 }
 
 .link-arrow-right span::after {
-  content: url(/img/arrow-right.svg);
+  content: url(https://ardyan.design/img/arrow-right.svg);
   position: absolute;
   right: -30px;
   -webkit-transition: -webkit-transform 0.3s ease-out;
@@ -170,7 +170,7 @@ img {
 }
 
 .link-arrow-upright span::after {
-  content: url(/img/arrow-up-right.svg);
+  content: url(https://ardyan.design/img/arrow-up-right.svg);
   position: absolute;
   right: -30px;
   -webkit-transition: -webkit-transform 0.3s ease-out;
